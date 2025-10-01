@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Testing CWC - 258 - with meta tag - Oct 1 12:40pm</title>
+</head>
+<body>
+
+<h2>Testing CWC in 258</h2>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DVW000004eEuo',
+				'Food_Options_921',
+				'https://orgfarm-d58802e2eb.test1.my.pc-rnd.site.com/ESWFoodOptions9211758508250747',
+				{
+					scrt2URL: 'https://orgfarm-d58802e2eb.test1.my.pc-rnd.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-d58802e2eb.test1.my.pc-rnd.site.com/ESWFoodOptions9211758508250747/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>	
+	
+</body>
+</html>
